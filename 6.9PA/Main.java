@@ -31,6 +31,10 @@ public class Main {
             //iterate variable
             foot++;
     } 
+
+    //blank line for readability
+    System.out.println();
+
     //convert meters to feet and print results for 20-65 by 5
         //start at 20
         double meter = 20;
@@ -39,7 +43,7 @@ public class Main {
             //invoke method
             double newFoot = meterToFoot(meter);
             //print output
-            System.out.println("Meter: "+ meter +"   foot: " + newFoot);
+            System.out.println("Meter: "+ meter +"   Feet: " + newFoot);
             //iterate variable
             meter += 5;
         } 
