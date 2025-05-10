@@ -41,4 +41,9 @@ public class Game extends Media {
         this.hoursPlayed = Hours;
     }
 
+    @Override // for combo box
+    public String toString() {
+        return getTitle();
+    }
+
 }
